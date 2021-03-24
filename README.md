@@ -3,7 +3,7 @@ Swoosher: Electric Scooters! A Group Project for CC202 - Business System Develop
 
 
 ### How it worked
-A LAMP Stack was run on a Digital Ocean Droplet that allowed us to run a copy of Ubuntu 15 with the Apache web server. A domain was purchased from Name.com and linked to the droplet. The website was written in PHP, HTML, CSS and JS. The database used to handle all the data in the background was MySQL. The website used a custom CSS designed specifically for the website.
+A LAMP Stack was run on a Digital Ocean Droplet that allowed us to run a copy of Ubuntu 15 with the Apache web server. A domain was purchased from Name.com and linked to the droplet. The website was written in PHP, HTML, CSS and JS. The database used to handle all the data in the background was MySQL. The website used a custom CSS written specifically for the website.
 
 ## Screenshots
 
