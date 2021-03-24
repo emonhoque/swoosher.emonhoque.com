@@ -3,10 +3,35 @@ Swoosher: Electric Scooters! A Group Project for CC202 - Business System Develop
 
 
 ### How it worked
-Name.com is the domain registrar that allows people to buy any domain of their choice. We purchased our domain from here, our domain of choice being “Swoosher.xyz”. After this our domain then gets pointed to the Cloudflare Domain Name System. Cloudflare is the DNS provider and it is also in charge of handling the SSL(Secure Sockets Layer) certification to ensure a secure connection between host and client, this is a vital step that is being carried out by cloudfare as SSL is very important to have in any modern website. The host in this case is a self-hosted virtual machine called a ‘Droplet’ at Digital Ocean. In the droplet, you can run any light-weight system of your choice. So in our instance “Swoosher.xyz” is running from this VM Cloud. The droplet is running a LAMP Stack. A LAMP basically stands for Linux (Operating System), Apache (Web Server), MySQL (Database), PHP/Python (Scripting).
-
+A LAMP Stack was run on a Digital Ocean Droplet that allowed us to run a copy of Ubuntu 15 with the Apache web server. A domain was purchased from Name.com and linked to the droplet. The website was written in PHP, HTML, CSS and JS. The database used to handle all the data in the background was MySQL.
 
 ### Screenshots
 <p align="center">
-![image](https://user-images.githubusercontent.com/56671915/112275900-112f0800-8cbb-11eb-8548-5849285d47a5.png)
+    <p> Homepage </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112276263-826ebb00-8cbb-11eb-8ffb-7e2154ceb2a3.jpg" alt="Screenshot"/>
 </p>
+
+<p align="center">
+    <p> Locations </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112276848-2193b280-8cbc-11eb-8a9f-89f55a21102b.jpg" alt="Screenshot"/>
+</p>
+
+<p align="center">
+    <p> Founders </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112276932-31ab9200-8cbc-11eb-89c7-4936330200e5.jpg" alt="Screenshot"/>
+</p>
+
+<p align="center">
+    <p> Contacts </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112277196-76372d80-8cbc-11eb-962d-360e44e0b8ca.jpg" alt="Screenshot"/>
+</p>
+
+<p align="center">
+    <p> Admin Panel </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112277210-78998780-8cbc-11eb-90d5-4f4c58c32c35.jpg" alt="Screenshot"/>
+</p>
+
+<p align="center">
+    <p> Locations (Admin Panel) </p>
+    <img src="https://user-images.githubusercontent.com/56671915/112277208-7800f100-8cbc-11eb-8069-1c951ae0c4fc.jpg" alt="Screenshot"/>
+    
