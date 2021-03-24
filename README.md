@@ -7,3 +7,6 @@ Name.com is the domain registrar that allows people to buy any domain of their c
 
 
 ### Screenshots
+<p align="center">
+![image](https://user-images.githubusercontent.com/56671915/112275900-112f0800-8cbb-11eb-8548-5849285d47a5.png)
+</p>
