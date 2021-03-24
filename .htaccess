@@ -1,0 +1,58 @@
+Options -MultiViews
+
+ErrorDocument 404 /404.php
+ErrorDocument 502 /404.php
+ErrorDocument 500 /404.php
+
+
+RewriteEngine On
+
+
+#removing extensions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [NC,L]
+
+<Files populate.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\bsdt\.htpasswd
+Require valid-user
+</Files>
+
+<Files editowners.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\bsdt\.htpasswd
+Require valid-user
+</Files>
+
+<Files edit.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\bsdt\.htpasswd
+Require valid-user
+</Files>
+
+<Files cfresults.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\bsdt\.htpasswd
+Require valid-user
+</Files>
+
+<Files newslettersubs.php>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\bsdt\.htpasswd
+Require valid-user
+</Files>
+
+
+
+
+

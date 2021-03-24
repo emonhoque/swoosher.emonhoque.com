@@ -1,0 +1,171 @@
+.main-content {
+  padding-top: 2%;
+}
+
+.tablehor {
+  overflow-x: auto !important;
+  width: 1600 !important;
+}
+
+.addloc {
+  padding: 5% 5% 5%;
+  color: black;
+  background-color: #dfdfdf;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+
+.locdet {
+  font-size: 15px;
+  text-align: left;
+  color: black;
+}
+
+.delete {
+  color: Red;
+}
+
+.locform {
+  width: 100%;
+  padding-top: 2%;
+}
+
+.locform2 {
+  padding: 30px;
+  border-radius: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.locform input {
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: rgb(224, 223, 223);
+}
+
+.locform textarea {
+  max-width: 400px;
+  width: 100%;
+  height: 250px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(224, 223, 223);
+  resize: none;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.locform .submit {
+  background-color: #152fa3;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 80%;
+  max-width: 330px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.main-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.locform .submit:hover {
+  background-color: #152fa3;
+  color: black;
+  opacity: 1;
+}
+
+.tablehor2 {
+  overflow-x: auto !important;
+  width: 100%;
+}
+
+.addloc2 {
+  padding: 5%;
+  color: black;
+  background-color: #dfdfdf;
+  border-radius: 40px;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+
+.locdet2 {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.edit {
+  color: Red;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ownform {
+  padding-top: 2%;
+}
+
+.ownform2 {
+  width: 80%;
+}
+
+.ownform2 input {
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: rgb(224, 223, 223);
+}
+
+.ownform2 th {
+  float: right;
+}
+
+.ownform2 td {
+  vertical-align: center;
+}
+
+.ownform2 textarea {
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(224, 223, 223);
+  resize: none;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.ownform2 .submit {
+  background-color: #152fa3;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 80%;
+  max-width: 330px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
