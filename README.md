@@ -1,4 +1,4 @@
-# swoosher.xyz
+# swoosher.emonhoque.com
 Swoosher: Electric Scooters! A Group Project for CC202 - Business System Development Tools for the May 2020 Semester. 
 
 
